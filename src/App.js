@@ -4,8 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      hello world 
-      Anime
+      Welcome To SAO World
     </div>
   );
 }
