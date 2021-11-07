@@ -40,7 +40,7 @@ jobs:
       
     
       - name: installing surge
-      - run: npm install -g surge 
+        run: npm install -g surge 
        
-        name: Deploying on surge
-      - run: surge ./build https://prac01.surge.sh/  --token ${{secrets.Token}}
+      - name: Deploying on surge
+        run: surge ./build https://prac01.surge.sh/  --token ${{secrets.Token}}
